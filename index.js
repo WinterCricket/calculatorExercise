@@ -10,19 +10,19 @@ document.getElementById("num2-el").textContent = num2;
 sum = document.getElementById("sum-el");
 
 function add(){
-	 addsum = num1 + num2;
-	sum.textContent = addsum;
+	 result = num1 + num2;
+	sum.textContent =  result;
 }
 function subtract(){
-	 subsum = num1 - num2;
-	sum.textContent = subsum;
+	 result = num1 - num2;
+	sum.textContent =  result;
 }
 
 function divide(){
-	divsum = num1 / num2;
-	sum.textContent= divsum;
+	result = num1 / num2;
+	sum.textContent =  result;
 }
 function multiply(){
-	 multsum = num1 * num2;
-	sum.textContent = multsum;
+	 result = num1 * num2;
+	sum.textContent =  result;
 }
